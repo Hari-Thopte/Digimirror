@@ -1,0 +1,32 @@
+{
+  "name": "digimirror-prototype",
+  "private": true,
+  "version": "0.3.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev --",
+    "dev:backend": "python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview --",
+    "dev:legacy": "vite --host 0.0.0.0",
+    "build:legacy": "vite build",
+    "preview:legacy": "vite preview --host 0.0.0.0",
+    "check": "npm --prefix frontend run check",
+    "test": "npm --prefix frontend test"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "exifr": "^7.1.3",
+    "lucide-react": "^0.468.0",
+    "mammoth": "^1.12.1",
+    "pdfjs-dist": "^6.2.108",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.12",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "vite": "^7.1.3"
+  }
+}
