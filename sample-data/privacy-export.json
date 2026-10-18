@@ -1,0 +1,61 @@
+{
+  "export_version": 1,
+  "items": [
+    {
+      "field": "phone_number",
+      "source": "Instagram profile + phone contacts",
+      "visibility": "public",
+      "action": "Turned on contact syncing during account setup",
+      "recipients": ["Profile visitors", "Instagram contact matching"],
+      "permission_status": "enabled"
+    },
+    {
+      "field": "email_address",
+      "source": "Google account",
+      "visibility": "shared",
+      "action": "Used Continue with Google to create connected accounts",
+      "recipients": ["ShopCart", "Soundwave", "Transactional email providers"],
+      "permission_status": "enabled"
+    },
+    {
+      "field": "precise_location",
+      "source": "Phone GPS + Google Maps timeline",
+      "visibility": "shared",
+      "action": "Selected Allow all the time for location access",
+      "recipients": ["Google location history", "Location-based ad personalization"],
+      "permission_status": "enabled"
+    },
+    {
+      "field": "home_address",
+      "source": "ShopCart saved addresses",
+      "visibility": "stored",
+      "action": "Saved an address as the default delivery location",
+      "recipients": ["ShopCart fulfillment", "Delivery partners"],
+      "permission_status": "unknown"
+    },
+    {
+      "field": "purchase_history",
+      "source": "ShopCart orders and product views",
+      "visibility": "shared",
+      "action": "Left personalized recommendations and ad measurement enabled",
+      "recipients": ["Recommendation models", "Advertising measurement partners"],
+      "permission_status": "enabled"
+    },
+    {
+      "field": "browsing_interests",
+      "source": "Product searches, clicks, and optional cookies",
+      "visibility": "inferred",
+      "action": "Accepted optional analytics and advertising cookies",
+      "recipients": ["Analytics providers", "Advertising audience segments"],
+      "permission_status": "enabled"
+    },
+    {
+      "field": "listening_activity",
+      "source": "Soundwave playback history",
+      "visibility": "shared",
+      "action": "Kept listening history and personalized discovery enabled",
+      "recipients": ["Soundwave recommendation models"],
+      "permission_status": "enabled"
+    }
+  ]
+}

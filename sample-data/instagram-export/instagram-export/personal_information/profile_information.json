@@ -1,0 +1,10 @@
+{
+  "profile_user": [
+    {
+      "string_map_data": {
+        "Email": {"value": "demo@example.com"},
+        "Phone": {"value": "+00 00000 00000"}
+      }
+    }
+  ]
+}

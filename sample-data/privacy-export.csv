@@ -1,0 +1,7 @@
+field,source,visibility,action,recipients,permission_status
+phone_number,Instagram profile + contacts,public,Turned on contact syncing during account setup,Profile visitors;Instagram contact matching,enabled
+email_address,Google account,shared,Used Continue with Google to create connected accounts,ShopCart;Soundwave;Transactional email providers,enabled
+precise_location,Phone GPS + Google Maps timeline,shared,Selected Allow all the time for location access,Google location history;Location-based ad personalization,enabled
+home_address,ShopCart saved addresses,stored,Saved an address as the default delivery location,ShopCart fulfillment;Delivery partners,unknown
+purchase_history,ShopCart orders and product views,shared,Left personalized recommendations and ad measurement enabled,Recommendation models;Advertising measurement partners,enabled
+browsing_interests,Product searches clicks and optional cookies,inferred,Accepted optional analytics and advertising cookies,Analytics providers;Advertising audience segments,enabled

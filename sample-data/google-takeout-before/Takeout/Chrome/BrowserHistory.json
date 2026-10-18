@@ -1,0 +1,14 @@
+{
+  "Browser History": [
+    {
+      "title": "Example privacy article",
+      "url": "https://example.com/privacy",
+      "time_usec": 1786908600000000
+    },
+    {
+      "title": "Example store",
+      "url": "https://example.com/store",
+      "time_usec": 1786912200000000
+    }
+  ]
+}
