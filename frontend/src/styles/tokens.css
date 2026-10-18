@@ -1,0 +1,85 @@
+:root {
+  --radius-button: 10px;
+  --radius-card: 16px;
+  --radius-hero: 24px;
+  --space-section: 32px;
+  --icon-extra-small: 12px;
+  --icon-small: 16px;
+  --icon-medium: 20px;
+  --icon-large: 24px;
+  color-scheme: light;
+  --forest: #12352b;
+  --mist: #f3f6f2;
+  --amber: #c8811a;
+  --red: #c2412d;
+  --green: #2e8b62;
+  --mint: #7be0b5;
+  --canvas: #f3f6f2;
+  --surface: #ffffff;
+  --surface-quiet: #eaf0e8;
+  --surface-hover: #e1eade;
+  --ink: #12352b;
+  --muted: #52665c;
+  --line: #d3ddd3;
+  --line-strong: #9bae9e;
+  --primary-bg: #12352b;
+  --primary-fg: #ffffff;
+  --focus: #285e48;
+  --risk-high: #85500a;
+  --risk-critical: #a23424;
+  --risk-moderate: #80570d;
+  --risk-protected: #216746;
+  --high-fill: #fff2d9;
+  --critical-fill: #fce6df;
+  --moderate-fill: #f5efdc;
+  --protected-fill: #e3f1e7;
+  --map-protected-fill: #cfebda;
+  --hero-bg: #fff7e9;
+  --ring-track: #e7dac4;
+  --shadow-dialog: 0 24px 80px #12352b26;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: "Segoe UI", -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --text-display: 2.75rem;
+  --text-score: 4.5rem;
+}
+[data-theme="dark"] {
+  color-scheme: dark;
+  --canvas: #0c1a16;
+  --surface: #142b23;
+  --surface-quiet: #1c352b;
+  --surface-hover: #284438;
+  --ink: #edf3eb;
+  --muted: #b6c8bc;
+  --line: #345044;
+  --line-strong: #708a7b;
+  --primary-bg: #e5eee1;
+  --primary-fg: #12352b;
+  --focus: #7be0b5;
+  --risk-high: #f0bf70;
+  --risk-critical: #ffa48f;
+  --risk-moderate: #ebc781;
+  --risk-protected: #a0d9b7;
+  --high-fill: #3b2c17;
+  --critical-fill: #44261e;
+  --moderate-fill: #352e1d;
+  --protected-fill: #1d3e2d;
+  --map-protected-fill: #24553e;
+  --hero-bg: #29251a;
+  --ring-track: #4a402d;
+  --shadow-dialog: 0 24px 80px #0008;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+    --canvas: #0c1a16;
+    --surface: #142b23;
+    --ink: #edf3eb;
+    --muted: #b6c8bc;
+    --line: #345044;
+  }
+}
